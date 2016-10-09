@@ -1,0 +1,17 @@
+#input-wrapper {
+    display: inline-block;
+    /*border: solid;*/
+    margin: 5px;
+}
+
+#status {
+    display: inline-block;
+    /*border:solid;*/
+}
+
+#post-list {
+    display: block;
+    /*border: solid;*/
+    margin: 5px;
+}
+

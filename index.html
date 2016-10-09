@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type ="text/javascript" src="dataHandler.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>This is Excercise 2</h1>
+     <!--<div class='form-wrapper'>
+        <form action='dataHandler.js' method="POST">
+            Name:<br>
+            <input type='text' id='name'' name='name'><br>
+            Blogpost:<br>
+            <input type='text' id='blogpost' name='blogpost'><br>
+            <input type='submit' name='submit' value='Submit'>
+        </form>
+    </div>-->
+    <div id="input-wrapper">
+        Name: <input id="name" name="name" type="text"/>
+        <br /><br />
+        Blogpost: <input id="blogpost" name="blogpost" type="text"/>
+        <br /><br />
+        <input name="postBtn" type="submit" value="Submit Post" onClick="javascript:ajaxDataPost();">
+    </div>
+    <div id="status"></div>
+    <div id="post-list"></div>
+    
+   
+    <script>
+        fetchAllData();
+    </script>
+</body>
+</html>
